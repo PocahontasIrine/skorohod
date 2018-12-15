@@ -10,7 +10,7 @@
     <!--</div>-->
     <div v-if="numberPage===null" class="container">
       <div class="row" style="height: 100vh">
-        <div class="col-sm" style="margin-top: 40vh">
+        <div class="col-sm" style="margin-top: 30vh">
           <div>
           <button @click="vhod">Вход</button>
           </div>
@@ -29,7 +29,7 @@
     </div>
     <div v-if="numberPage===1" class="container">
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm" style="margin-top: 30vh">
           <form @submit.prevent="enterLk">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
